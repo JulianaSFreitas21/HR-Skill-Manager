@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a68d66f2f50f110f36255272799b69b" label="Team Members" max_length="40" name="x_668348_hr_skil_0_team_members" type="collection">
+        <element label="Member" mandatory="true" max_length="32" name="members" reference="x_668348_hr_skil_0_members" type="reference"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_668348_hr_skil_0_projects" type="reference"/>
+        <index name="index">
+            <element name="members"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

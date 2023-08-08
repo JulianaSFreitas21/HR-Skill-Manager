@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d038d26f2f50f110f36255272799b672" label="Skills" max_length="40" name="x_668348_hr_skil_0_skills" type="collection">
+        <element label="Name" mandatory="true" max_length="50" name="name" type="string"/>
+    </element>
+</database>

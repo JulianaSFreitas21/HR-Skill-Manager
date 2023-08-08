@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment">
+    <sn_pipeline_environment action="DELETE">
+        <instance_credential display_value="sn_cicd_spoke.CICD">752a91887740001038e286a2681061fb</instance_credential>
+        <instance_id>d4e0a8fadbd0b34052cec59705961974</instance_id>
+        <instance_type>dev</instance_type>
+        <instance_url>https://dev76815.service-now.com/</instance_url>
+        <is_controller>false</is_controller>
+        <name>PDI</name>
+        <sys_class_name>sn_pipeline_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 15:15:13</sys_created_on>
+        <sys_id>ae95017b2fd8f110f36255272799b689</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PDI</sys_name>
+        <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+        <sys_update_name>sn_pipeline_environment_ae95017b2fd8f110f36255272799b689</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:00:15</sys_updated_on>
+    </sn_pipeline_environment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</application>
+        <file_path/>
+        <instance_id>d4e0a8fadbd0b34052cec59705961974</instance_id>
+        <instance_name>dev76815</instance_name>
+        <name>sn_pipeline_environment_ae95017b2fd8f110f36255272799b689</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment"><sn_pipeline_environment action="INSERT_OR_UPDATE"><instance_credential display_value="sn_cicd_spoke.CICD">752a91887740001038e286a2681061fb</instance_credential><instance_id>d4e0a8fadbd0b34052cec59705961974</instance_id><instance_type>dev</instance_type><instance_url>https://dev76815.service-now.com/</instance_url><is_controller>false</is_controller><name>PDI</name><sys_class_name>sn_pipeline_environment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 15:15:13</sys_created_on><sys_id>ae95017b2fd8f110f36255272799b689</sys_id><sys_mod_count>4</sys_mod_count><sys_name>PDI</sys_name><sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package><sys_policy/><sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope><sys_update_name>sn_pipeline_environment_ae95017b2fd8f110f36255272799b689</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 18:00:15</sys_updated_on></sn_pipeline_environment></record_update>]]></payload>
+        <payload_hash>-1036820617</payload_hash>
+        <record_name>PDI</record_name>
+        <reverted_from/>
+        <source>8e360ae32fdcb110f36255272799b68a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 18:00:15</sys_created_on>
+        <sys_id>e8cb65b72f9cf110f36255272799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bc8eb05b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:00:15</sys_updated_on>
+        <type>Environment</type>
+        <update_guid>a0cb65b7f09cf110cb0b67b31e801c42</update_guid>
+        <update_guid_history>a0cb65b7f09cf110cb0b67b31e801c42:-1036820617,085b2d773a9cf11058c2d452b9f70b49:1733897014,ff2b2977cf9cf110d66270c363c7627e:-2133047774,a3adc97bb91cf110d2b4c6f140ca7d67:-1526875832,07f589bb53d8f1108815502c54ff5bd3:59386417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PDI">50917dfb2f9cf110f36255272799b6c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 18:25:37</sys_created_on>
+        <sys_db_object display_value="" name="sn_pipeline_environment">sn_pipeline_environment</sys_db_object>
+        <sys_id>187097101468440084754f7bdd9e4000</sys_id>
+        <sys_metadata>ae95017b2fd8f110f36255272799b689</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PDI</sys_name>
+        <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+        <sys_scope_delete display_value="">212e1f3558d74ffc90093b0e70616c90</sys_scope_delete>
+        <sys_update_name>sn_pipeline_environment_ae95017b2fd8f110f36255272799b689</sys_update_name>
+        <sys_update_version display_value="sn_pipeline_environment_ae95017b2fd8f110f36255272799b689">e8cb65b72f9cf110f36255272799b642</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:25:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

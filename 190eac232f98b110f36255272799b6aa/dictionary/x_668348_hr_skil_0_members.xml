@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a498da6f2f50f110f36255272799b633" label="Members" max_length="40" name="x_668348_hr_skil_0_members" type="collection">
+        <element label="Company" mandatory="true" max_length="150" name="company" type="string"/>
+        <element choice="1" label="Department" mandatory="true" max_length="50" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Customer Support" value="Customer Support"/>
+                <element inactive_on_update="false" label="Development" value="Development"/>
+                <element inactive_on_update="false" label="Finance" value="Finance"/>
+                <element inactive_on_update="false" label="Human Resources" value="Human Resources"/>
+                <element inactive_on_update="false" label="IT" value="IT"/>
+                <element inactive_on_update="false" label="Product Management" value="Product Management"/>
+                <element inactive_on_update="false" label="Sales" value="Sales"/>
+            </choice>
+        </element>
+        <element label="Email" mandatory="true" max_length="100" name="email" type="string"/>
+        <element label="Name" mandatory="true" max_length="20" name="name" type="string_full_utf8"/>
+        <element label="Skill" mandatory="true" max_length="32" name="skill" reference="x_668348_hr_skil_0_skills" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+    </element>
+</database>

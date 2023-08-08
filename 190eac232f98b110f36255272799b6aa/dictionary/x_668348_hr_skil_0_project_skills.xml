@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="88d7da2f2f50f110f36255272799b644" label="Project Skills" max_length="40" name="x_668348_hr_skil_0_project_skills" type="collection">
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_668348_hr_skil_0_projects" type="reference"/>
+        <element display="true" label="Skill Name" mandatory="true" max_length="32" name="skill_name" read_only="true" reference="x_668348_hr_skil_0_skills" type="reference"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="skill_name"/>
+        </index>
+    </element>
+</database>

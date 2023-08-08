@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline">
+    <sn_pipeline_pipeline action="DELETE">
+        <active>true</active>
+        <name>Prod</name>
+        <pipeline_type display_value="Application Deployment">268f9c0fb73430100290b9708e11a9de</pipeline_type>
+        <source_environment/>
+        <sys_class_name>sn_pipeline_pipeline</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 18:02:30</sys_created_on>
+        <sys_id>322c29b72f9cf110f36255272799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prod</sys_name>
+        <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+        <sys_update_name>sn_pipeline_pipeline_322c29b72f9cf110f36255272799b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:02:30</sys_updated_on>
+    </sn_pipeline_pipeline>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</application>
+        <file_path/>
+        <instance_id>d4e0a8fadbd0b34052cec59705961974</instance_id>
+        <instance_name>dev76815</instance_name>
+        <name>sn_pipeline_pipeline_322c29b72f9cf110f36255272799b6f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline"><sn_pipeline_pipeline action="INSERT_OR_UPDATE"><active>true</active><name>Prod</name><pipeline_type display_value="Application Deployment">268f9c0fb73430100290b9708e11a9de</pipeline_type><source_environment/><sys_class_name>sn_pipeline_pipeline</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 18:02:30</sys_created_on><sys_id>322c29b72f9cf110f36255272799b6f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Prod</sys_name><sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package><sys_policy/><sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope><sys_update_name>sn_pipeline_pipeline_322c29b72f9cf110f36255272799b6f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 18:02:30</sys_updated_on></sn_pipeline_pipeline></record_update>]]></payload>
+        <payload_hash>-1649215637</payload_hash>
+        <record_name>Prod</record_name>
+        <reverted_from/>
+        <source>8e360ae32fdcb110f36255272799b68a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 18:25:53</sys_created_on>
+        <sys_id>c0a1bdfb2f9cf110f36255272799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bca629fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:25:53</sys_updated_on>
+        <type>Pipeline</type>
+        <update_guid>a14c6db7ca9cf1104d78ad59e35a14c0</update_guid>
+        <update_guid_history>a14c6db7ca9cf1104d78ad59e35a14c0:284681499,a14c6db7ca9cf1104d78ad59e35a14c0:284681499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Prod">f5b1f9fb2f9cf110f36255272799b614</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 18:26:16</sys_created_on>
+        <sys_db_object display_value="" name="sn_pipeline_pipeline">sn_pipeline_pipeline</sys_db_object>
+        <sys_id>1af9fc7ac91b471c990731f3f4d94690</sys_id>
+        <sys_metadata>322c29b72f9cf110f36255272799b6f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prod</sys_name>
+        <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+        <sys_scope_delete display_value="">212e1f3558d74ffc90093b0e70616c90</sys_scope_delete>
+        <sys_update_name>sn_pipeline_pipeline_322c29b72f9cf110f36255272799b6f3</sys_update_name>
+        <sys_update_version display_value="sn_pipeline_pipeline_322c29b72f9cf110f36255272799b6f3">c0a1bdfb2f9cf110f36255272799b6c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 18:26:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
