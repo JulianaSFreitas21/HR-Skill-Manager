@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="b9ffa2bb2f903510f36255272799b687" sys_domain="global" table="x_668348_hr_skil_0_members" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-03 23:00:45</sys_created_on>
+            <sys_id>2e803ebb2f903510f36255272799b6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-03 23:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-03 23:14:38</sys_created_on>
+            <sys_id>75b3727f2f903510f36255272799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-03 23:14:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-04 00:02:44</sys_created_on>
+            <sys_id>d2befaff2f903510f36255272799b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-04 00:02:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-04 00:08:54</sys_created_on>
+            <sys_id>f4200f7b2fd03510f36255272799b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-04 00:08:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skill</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-04 00:14:22</sys_created_on>
+            <sys_id>0161c7fb2fd03510f36255272799b678</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-04 00:14:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_668348_hr_skil_0_members</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-03 22:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9ffa2bb2f903510f36255272799b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_668348_hr_skil_0_members</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+            <sys_update_name>sys_ui_section_b9ffa2bb2f903510f36255272799b687</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-03 22:58:14</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</application>
+        <file_path/>
+        <instance_id>d4e0a8fadbd0b34052cec59705961974</instance_id>
+        <instance_name>dev76815</instance_name>
+        <name>sys_ui_section_b9ffa2bb2f903510f36255272799b687</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b9ffa2bb2f903510f36255272799b687" sys_domain="global" table="x_668348_hr_skil_0_members" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 23:00:45</sys_created_on><sys_id>2e803ebb2f903510f36255272799b6b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 23:00:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 23:14:38</sys_created_on><sys_id>75b3727f2f903510f36255272799b655</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 23:14:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>department</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 00:02:44</sys_created_on><sys_id>d2befaff2f903510f36255272799b674</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 00:02:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>company</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 00:08:54</sys_created_on><sys_id>f4200f7b2fd03510f36255272799b686</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 00:08:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>skill</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 00:14:22</sys_created_on><sys_id>0161c7fb2fd03510f36255272799b678</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_668348_hr_skil_0_members" sys_domain="global" view="Default view">b9ffa2bb2f903510f36255272799b687</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 00:14:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_668348_hr_skil_0_members</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 22:58:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9ffa2bb2f903510f36255272799b687</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_668348_hr_skil_0_members</sys_name><sys_overrides/><sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package><sys_policy/><sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope><sys_update_name>sys_ui_section_b9ffa2bb2f903510f36255272799b687</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 22:58:14</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-570886067</payload_hash>
+        <record_name>Members</record_name>
+        <reverted_from/>
+        <source>8e360ae32fdcb110f36255272799b68a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 00:14:22</sys_created_on>
+        <sys_id>8161c7fb2fd03510f36255272799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bde536980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 00:14:22</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0961c7fb5bd03510d944d3d1c35c3679</update_guid>
+        <update_guid_history>0961c7fb5bd03510d944d3d1c35c3679:-570886067,b820c3bbffd03510a7b07b43b65b01b8:-1607006593,12befaffc6903510754333a68b069976:-1782086854,b9b3727fbb903510cf565b89d3949a56:1019684507,66803ebb639035109f18cffe5546c4b5:-1406369569,fdffa2bbc790351034989e47f73eab8a:-1690895675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-13 00:11:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3a24ff0cfa594ce08e2a1b68841b2104</sys_id>
+        <sys_metadata>b9ffa2bb2f903510f36255272799b687</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_668348_hr_skil_0_members</sys_name>
+        <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
+        <sys_parent display_value="">a498da6f2f50f110f36255272799b633</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
+        <sys_scope_delete display_value="">212e1f3558d74ffc90093b0e70616c90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b9ffa2bb2f903510f36255272799b687</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b9ffa2bb2f903510f36255272799b687">8161c7fb2fd03510f36255272799b67a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-13 00:11:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
