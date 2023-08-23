@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5a68d66f2f50f110f36255272799b69b" label="Team Members" max_length="40" name="x_668348_hr_skil_0_team_members" type="collection">
-        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_668348_hr_skil_0_projects" type="reference"/>
+        <element label="Member" mandatory="true" max_length="32" name="member" reference="sys_user" type="reference"/>
+        <element choice="1" label="Source" mandatory="true" max_length="40" name="source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Groups" value="Groups"/>
+                <element inactive_on_update="false" label="Manager" value="Manager"/>
+                <element inactive_on_update="false" label="Manual" value="Manual"/>
+                <element inactive_on_update="false" label="Users" value="Users"/>
+            </choice>
+        </element>
+        <element label="Team" mandatory="true" max_length="32" name="team" reference="x_668348_hr_skil_0_team" type="reference"/>
         <index name="index">
-            <element name="project"/>
+            <element name="member"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
         </index>
     </element>
 </database>

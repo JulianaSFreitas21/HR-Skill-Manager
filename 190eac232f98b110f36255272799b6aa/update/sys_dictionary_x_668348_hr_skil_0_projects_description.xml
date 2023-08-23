@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="team" table="x_668348_hr_skil_0_projects">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="description" table="x_668348_hr_skil_0_projects">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Team</column_label>
+        <column_label>Description</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>team</element>
+        <element>description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">longint</internal_type>
         <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <max_length>500</max_length>
         <name>x_668348_hr_skil_0_projects</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_668348_hr_skil_0_team">x_668348_hr_skil_0_team</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-08-04 12:22:23</sys_created_on>
-        <sys_name>Team</sys_name>
+        <sys_created_on>2023-08-23 00:48:22</sys_created_on>
+        <sys_name>Description</sys_name>
         <sys_package display_value="HR Skill Manager" source="x_668348_hr_skil_0">190eac232f98b110f36255272799b6aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Skill Manager">190eac232f98b110f36255272799b6aa</sys_scope>
-        <sys_update_name>sys_dictionary_x_668348_hr_skil_0_projects_team</sys_update_name>
+        <sys_update_name>sys_dictionary_x_668348_hr_skil_0_projects_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-23 00:49:57</sys_updated_on>
+        <sys_updated_on>2023-08-23 00:48:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

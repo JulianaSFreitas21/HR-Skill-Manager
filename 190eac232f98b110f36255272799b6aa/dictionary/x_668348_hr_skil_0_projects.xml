@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c7fdf9eb2f9cb110f36255272799b60b" label="Projects" max_length="40" name="x_668348_hr_skil_0_projects" type="collection">
+        <element label="Description" mandatory="true" max_length="500" name="description" type="longint"/>
         <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Short Description" mandatory="true" max_length="100" name="short_description" type="string"/>
         <element display="true" label="Skill" max_length="32" name="skill" reference="x_668348_hr_skil_0_project_skills" reference_qual="projectISNOTEMPTY^EQ" reference_qual_condition="projectISNOTEMPTY^EQ" type="reference"/>
-        <element label="Team" max_length="32" name="team" reference="x_668348_hr_skil_0_team_members" reference_qual="projectISNOTEMPTY^EQ" reference_qual_condition="projectISNOTEMPTY^EQ" type="reference"/>
+        <element label="Team" mandatory="true" max_length="32" name="team" reference="x_668348_hr_skil_0_team" type="reference"/>
         <index name="index">
             <element name="skill"/>
         </index>

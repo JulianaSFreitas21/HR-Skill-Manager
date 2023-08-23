@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1cd7193a2f203110f36255272799b6e1" label="Members Skill" max_length="40" name="x_668348_hr_skil_0_members_skill" type="collection"/>
+    <element db_object_id="1cd7193a2f203110f36255272799b6e1" label="Members Skill" max_length="40" name="x_668348_hr_skil_0_members_skill" type="collection">
+        <element choice="1" label="Level" mandatory="true" max_length="40" name="level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Advanced" value="Advanced"/>
+                <element inactive_on_update="false" label="Begginer" value="Begginer"/>
+                <element inactive_on_update="false" label="Intermediate" value="Intermediate"/>
+            </choice>
+        </element>
+        <element label="Skill" mandatory="true" max_length="32" name="skill" reference="x_668348_hr_skil_0_skills" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
 </database>
